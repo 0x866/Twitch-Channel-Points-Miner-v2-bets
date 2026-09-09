@@ -309,6 +309,8 @@ class WebSocketsPool:
                                         # )
                                         # place_bet_thread.daemon = True
                                         # place_bet_thread.start()
+                                        
+                                        # streamer.username / streamer.channel_points
                                         logger.info(
                                             f"СТАВКА на {streamer} - {event_dict['title']} Варианты: {[i['title'] for i in event_dict['outcomes']]}",
                                             extra={
