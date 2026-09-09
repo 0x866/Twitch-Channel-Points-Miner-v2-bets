@@ -310,7 +310,7 @@ class WebSocketsPool:
                                         # place_bet_thread.daemon = True
                                         # place_bet_thread.start()
                                         logger.info(
-                                            f"СТАВКА на {streamer} ({streamer.channel_points} баллов) - {event_dict['title']} Варианты: {[i for i in event_dict['outcomes']['title']]}",
+                                            f"СТАВКА на {streamer} ({streamer.channel_points} баллов) - {event_dict['title']} Варианты: {[i['title'] for i in event_dict['outcomes']]}",
                                             extra={
                                                 "emoji": ":alarm_clock:",
                                                 "event": Events.BET_START,
