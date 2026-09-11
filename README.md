@@ -24,7 +24,7 @@ const decoded = decodeURIComponent(getCookie('twilight-user'));
 console.log(JSON.parse(decoded).id); // persistent (twitch acc id)
 ```
 
-<h3 align="center">https://github.com/0x866/Twitch-Channel-Points-Miner-v2/tree/main</h3>
+<h3 align="center">https://github.com/0x866/Twitch-Channel-Points-Miner-v2-bets</h3>
 
 ### Измененные файлы:
 - `TwitchChannelPointsMiner/classes/TwitchLogin.py`
